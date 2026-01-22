@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <IsPackable>true</IsPackable>
     <PackageId>Mayordomo.Tools</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Robert Mayordomo</Authors>
     <Description>channels in .NET.</Description>
     <PackageTags>dotnet channels Helpers</PackageTags>
