@@ -34,7 +34,7 @@ jobs:
       #   # Note: No test project was found. This step is commented out and will fail until a test project is added.
 
       - name: Pack
-        run: dotnet pack EasyState.Blazor/EasyState.Blazor.csproj --no-build --configuration Release -o ./nuget
+        run: dotnet pack Mayordomo.Tools/Mayordomo.Tools.csproj --no-build --configuration Release -o ./nuget
 
       - name: Publish to NuGet
         run: dotnet nuget push "./nuget/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source "https://api.nuget.org/v3/index.json" --skip-duplicate
